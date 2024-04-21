@@ -6,7 +6,7 @@ snow: false
 click_animate_js: 'candy'
 enable_dark: true
 highlight_theme: night-eighties # 代码高亮主题（light | night | night-eighties | night-blue | night-bright）
-check_update: true
+check_update: false
 # canonical: true
 
 vendors:
@@ -93,7 +93,7 @@ contact: # 出于兼容性考虑，继续保留
   rss:
 footerLinks: [
 ] # 可以自定义
-timenotice: 
+timenotice: 本站已运行
 icp: 
 psr:
   
@@ -210,7 +210,7 @@ jsconfig:
       randomAmount: 20 # 表示从1~20
       baseUrl: null # 使用默认值（不单独配置），将跟随 vendors 中的相关设定选择是否使用 cdn
       filenameTemplate: "thumb_{no}.webp" 
-    createTime: "2018/05/06 17:03:12"
+    createTime: "2024/03/21 17:07:42"
     donateBtn: "支持我~"
     scanNotice: "扫一扫，好不好？"
     qr_alipay: "/images/alipayqr.webp"
@@ -240,7 +240,7 @@ friends:
   - name: "猫猫①号"
     bio: "喵~"
     avatar: "../images/喵喵一号.webp"
-    link: "https://ruaruashark.github.io"
+    link: "https://sekka.life"
   verify: true # 验证每个友链的可访问性，炸了会有提示
 
 # Misc 杂项
