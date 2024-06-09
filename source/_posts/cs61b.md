@@ -5,7 +5,8 @@ categories:
     - [课程相关,自学课程]
 tags: 
     - 自学
-    - 数据结构
+    - ds
+toc: true
 ---
 
 第一个自学的国外课程

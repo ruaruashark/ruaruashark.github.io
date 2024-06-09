@@ -1,7 +1,7 @@
 # Global 全局配置
 site_analytics: ''
 hoster: <a href="https://github.io" target="_blank">Github Pages</a>
-site_logo: ''
+site_logo: /images/site_logo.png
 snow: false
 click_animate_js: 'candy'
 enable_dark: true
@@ -219,7 +219,7 @@ jsconfig:
     leaveTitle: "{{{(>_<)}}}哦哟，崩溃啦~"
     returnTitle: "(*´∇｀*)欸，又好啦~"
     copyrightNotice: "该内容采用 CC BY-NC-SA 4.0 许可协议，著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"
-    expire_day: 30
+    expire_day: 1000
     topNavScrollToggle: true
 
 # Site verify 站点验证相关配置内容

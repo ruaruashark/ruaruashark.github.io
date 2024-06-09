@@ -103,3 +103,11 @@ theme: kratos-rebirth
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+toc:
+  enable: true
+  max_depth: 6
+  include_default_css: true
+  from_heading: 1
+  to_heading: 6
+  list_number: false
