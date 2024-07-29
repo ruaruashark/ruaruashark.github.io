@@ -4,9 +4,11 @@
     var load_comm = () => {
         const init = () => {
             console.log('Gitalk loading...');
+            const currentUrl = window.location.href;
             const gitalk = new Gitalk(Object.assign({
                 id: '<%- url_for(page.path) %>',
-                path: '<%- url_for(page.path) %>'
+                path: '<%- url_for(page.path) %>',
+                redirect_uri: currentUrl
             }, JSON.parse('<%- JSON.stringify(theme.gitalk) %>')));
 
             gitalk.render('gitalk-container');
