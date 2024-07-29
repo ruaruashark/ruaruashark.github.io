@@ -103,8 +103,8 @@ posts:
   donate: false
   share: true
   comments: 
-    provider: ''
-    enableBGImage: false
+    provider: 'gitalk'
+    enableBGImage: true
   wordCount: 
     enable: true
     threshold: 1500
@@ -145,12 +145,12 @@ waline:
 ## 不仅限于以下内容，您可以参照 [Gitalk 文档](https://github.com/gitalk/gitalk/blob/master/readme-cn.md#%E8%AE%BE%E7%BD%AE) 设置您需要的配置项
 ## id 会在页面自动生成，不必加入
 gitalk:
-  clientID: 'GitHub Application Client ID'
-  clientSecret: 'GitHub Application Client Secret'
-  repo: 'Kratos-Rebirth-Demo'
-  owner: 'Candinya'
+  clientID: 'Ov23liWzwtM8a555fmXC'
+  clientSecret: '1ca2b01822a8480cd65b4cf04118f9de857497e6'
+  repo: 'ruaruashark.github.io'
+  owner: 'ruaruashark'
   admin: 
-    - 'Candinya'
+    - 'ruaruashark'
   distractionFreeMode: false
 
 # Gitment [Gitment](https://github.com/imsun/gitment/) 评论相关
