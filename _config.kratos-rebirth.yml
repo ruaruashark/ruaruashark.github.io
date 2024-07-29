@@ -103,7 +103,7 @@ posts:
   donate: false
   share: true
   comments: 
-    provider: 'gitment'
+    provider: 'gitalk'
     enableBGImage: true
   wordCount: 
     enable: true
@@ -157,11 +157,11 @@ gitalk:
 ## 不仅限于以下内容，您可以参照 [Gitment 文档](https://github.com/imsun/gitment#methods) 设置您需要的配置项
 ## id 会在页面自动生成，不必加入
 gitment:
-  owner: 'ruaruashark'
-  repo: 'ruaruashark.github.io'
+  owner: 'Candinya'
+  repo: 'Kratos-Rebirth-Demo'
   oauth:
-    client_id: 'Ov23liWzwtM8a555fmXC'
-    client_secret: '1ca2b01822a8480cd65b4cf04118f9de857497e6'
+    client_id: 'Your client ID'
+    client_secret: 'Your client secret'
 
 # LiveRe [LiveRe](https://livere.com/) 评论相关
 livere:
@@ -232,15 +232,15 @@ site_verify:
 friends:
   href: "friends"
   page:
-    title: "大佬们"
+    title: "好伙伴们"
     comments: false
-    description: "www"
-    updated: "1145-01-04"
+    description: "好伙伴们在哪里~"
+    updated: "2021-01-18"
   list:
-  # - name: ""
-  #   bio: "喵~"
-  #   avatar: "../images/喵喵一号.webp"
-  #   link: "https://sekka.life"
+  - name: "猫猫①号"
+    bio: "喵~"
+    avatar: "../images/喵喵一号.webp"
+    link: "https://sekka.life"
   verify: true # 验证每个友链的可访问性，炸了会有提示
 
 # Misc 杂项
