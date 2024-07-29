@@ -103,7 +103,7 @@ posts:
   donate: false
   share: true
   comments: 
-    provider: ''
+    provider: 'gitalk'
     enableBGImage: false
   wordCount: 
     enable: true
@@ -145,20 +145,20 @@ waline:
 ## 不仅限于以下内容，您可以参照 [Gitalk 文档](https://github.com/gitalk/gitalk/blob/master/readme-cn.md#%E8%AE%BE%E7%BD%AE) 设置您需要的配置项
 ## id 会在页面自动生成，不必加入
 gitalk:
-  clientID: 'GitHub Application Client ID'
-  clientSecret: 'GitHub Application Client Secret'
-  repo: 'Kratos-Rebirth-Demo'
-  owner: 'Candinya'
+  clientID: 'Ov23liWzwtM8a555fmXC'
+  clientSecret: '1ca2b01822a8480cd65b4cf04118f9de857497e6'
+  repo: 'ruaruashark.github.io'
+  owner: 'ruaruashark'
   admin: 
-    - 'Candinya'
+    - 'ruaruashark'
   distractionFreeMode: false
 
 # Gitment [Gitment](https://github.com/imsun/gitment/) 评论相关
 ## 不仅限于以下内容，您可以参照 [Gitment 文档](https://github.com/imsun/gitment#methods) 设置您需要的配置项
 ## id 会在页面自动生成，不必加入
 gitment:
-  owner: 'Candinya'
-  repo: 'Kratos-Rebirth-Demo'
+  owner: 'ruaruashark'
+  repo: 'ruaruashark.github.io'
   oauth:
     client_id: 'Your client ID'
     client_secret: 'Your client secret'
@@ -232,15 +232,15 @@ site_verify:
 friends:
   href: "friends"
   page:
-    title: "好伙伴们"
+    title: "大佬们"
     comments: false
-    description: "好伙伴们在哪里~"
-    updated: "2021-01-18"
+    description: "杂鱼~"
+    updated: "1145-01-04"
   list:
-  - name: "猫猫①号"
-    bio: "喵~"
-    avatar: "../images/喵喵一号.webp"
-    link: "https://ruaruashark.github.io"
+  # - name: "猫猫①号"
+  #   bio: "喵~"
+  #   avatar: "../images/喵喵一号.webp"
+  #   link: "https://sekka.life"
   verify: true # 验证每个友链的可访问性，炸了会有提示
 
 # Misc 杂项
