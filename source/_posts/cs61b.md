@@ -7,6 +7,7 @@ tags:
     - 自学
     - ds
 toc: true
+comments: false
 ---
 
 第一个自学的国外课程

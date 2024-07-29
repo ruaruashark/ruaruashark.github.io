@@ -149,6 +149,7 @@ gitalk:
   clientSecret: '1ca2b01822a8480cd65b4cf04118f9de857497e6'
   repo: 'ruaruashark.github.io'
   owner: 'ruaruashark'
+  title: '评论区'
   admin: 
     - 'ruaruashark'
   distractionFreeMode: false
@@ -237,10 +238,10 @@ friends:
     description: "杂鱼~"
     updated: "1145-01-04"
   list:
-  # - name: "猫猫①号"
-  #   bio: "喵~"
-  #   avatar: "../images/喵喵一号.webp"
-  #   link: "https://sekka.life"
+   - name: "test"
+     bio: "> <"
+     avatar: "../images/喵喵一号.webp"
+     link: "https://sekka.life"
   verify: true # 验证每个友链的可访问性，炸了会有提示
 
 # Misc 杂项

@@ -7,4 +7,5 @@ categories:
 only:
 - category
 - tag  
+comments: false
 ---
