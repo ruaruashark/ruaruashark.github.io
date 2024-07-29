@@ -6,7 +6,7 @@
             console.log('Gitalk loading...');
             const currentUrl = window.location.href;
             const gitalk = new Gitalk(Object.assign({
-                id: '<%- url_for(page.path) %>',
+                id: '<%- page.slug %>',
                 path: '<%- url_for(page.path) %>',
                 redirect_uri: currentUrl
             }, JSON.parse('<%- JSON.stringify(theme.gitalk) %>')));

@@ -6,7 +6,6 @@ categories:
 tags:
     - 自学
 toc : true
-comments: false
 ---
 
 致敬传奇软工阉割版课程（x
