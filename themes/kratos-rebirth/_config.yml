@@ -149,7 +149,7 @@ gitalk:
   clientSecret: '1ca2b01822a8480cd65b4cf04118f9de857497e6'
   repo: 'ruaruashark.github.io'
   owner: 'ruaruashark'
-  title: '评论区'
+  title: 'gitalk'
   admin: 
     - 'ruaruashark'
   distractionFreeMode: false
