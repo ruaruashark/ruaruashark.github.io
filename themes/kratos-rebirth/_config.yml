@@ -209,7 +209,7 @@ search:
 jsconfig:
   main:
     cover:
-      randomAmount: 20 # 表示从1~20
+      randomAmount: 16 # 表示从1~20
       baseUrl: null # 使用默认值（不单独配置），将跟随 vendors 中的相关设定选择是否使用 cdn
       filenameTemplate: "thumb_{no}.webp" 
     createTime: "2024/03/09 11:45:14"
